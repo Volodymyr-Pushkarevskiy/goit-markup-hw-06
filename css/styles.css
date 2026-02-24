@@ -204,6 +204,7 @@ img {
 @media screen and (min-width: 1158px) {
   .container {
     max-width: 1158px;
+    padding: 0 15px;
   }
 
   .header-left {
@@ -293,7 +294,7 @@ img {
     font-size: 56px;
     line-height: 1.07;
     width: 496px;
-    margin-bottom: 112px;
+    margin-bottom: 36px;
   }
 }
 
@@ -830,7 +831,7 @@ img {
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1439px) {
+@media screen and (min-width: 768px) and (max-width: 1158px) {
   .footer-section-container {
     padding-left: 108px;
   }
@@ -851,6 +852,10 @@ img {
 
   .footer-social-container {
     align-items: flex-start;
+  }
+
+  .footer-form-container {
+    margin-left: auto;
   }
 }
 
@@ -1209,8 +1214,8 @@ img {
 }
 
 .burger-address-list {
-  flex-direction: column-reverse;
-  gap: 12px;
+  flex-direction: column;
+  gap: 24px;
   display: flex;
 }
 
