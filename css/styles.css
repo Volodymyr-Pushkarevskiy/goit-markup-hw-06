@@ -978,7 +978,6 @@ img {
 }
 
 .text-field:focus {
-  border-color: none;
   outline: none;
 }
 
@@ -1119,7 +1118,6 @@ img {
 
 @media screen and (max-width: 1157px) {
   .comment-field {
-    border-color: none;
     outline: none;
   }
 }
